@@ -275,6 +275,19 @@ main::-webkit-scrollbar{
     padding-left: 20px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 357px){
+    input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    textarea{
+        width: 100%;
+    }
+}
+
 button{
     border-radius: 10px;
     border: 3px solid white;
